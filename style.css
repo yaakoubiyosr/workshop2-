@@ -1,0 +1,150 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+nav>header{
+    background-color: #100f0f;
+    color: #fff;
+    display: flex;
+justify-content: space-between;
+height: 40px;
+align-items: center;
+padding: 2%;
+
+}
+i{
+    color: orange;
+}
+section{
+    background-color: rgb(185, 203, 218);
+    height: 650px;
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    line-height: 1.5;
+
+
+
+
+}
+section img{
+    box-sizing: border-box;
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+
+
+
+}
+.container{
+    display: flex;
+   justify-content: space-between;
+   background-color: rgb(185, 203, 218);
+   align-items: center;
+   
+}
+.container>menu>.dropdown-container{
+    position: relative;
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+.dropdown{
+    position: absolute;
+    background-color: rgb(218, 210, 210);
+    visibility: hidden;
+
+}
+.dropdown p {
+    padding: 13px 20px;
+ 
+  }
+  
+  
+  .dropdown p:hover {
+    background-color: rgb(255, 255, 255);
+    /* padding-left: 30px; */
+    color: rgb(48, 39, 39);
+  }
+  
+  .dropdown-container > p:hover + .dropdown,
+  .dropdown:hover {
+    visibility: visible;
+ 
+  }
+
+
+ h1{
+    font-family:'Merriweather Sans', sans-serif;
+      font-size: 45px;
+      color:blue;
+
+
+}
+
+@media screen and (max-width:840px) {
+    img{
+        width: 95% !important;
+        height: 50%;
+
+    }
+    h1{
+        font-size: 17px;
+    }
+    /* {
+        visibility:hidden;
+        background-color:rgb(185, 203, 218) ;
+    } */
+    .section p{
+        font-size: 16px !important; 
+
+    }
+}
+
+
+.menu{
+    display: flex;
+    gap: 30px;
+padding: 2%;
+text-transform: uppercase;
+}
+
+.menu p{
+    cursor:pointer;
+}
+
+
+input{
+ border-radius:  3px;
+ background-color: orange;
+ width: 100px;
+ height: 35px;
+ margin-top: 15px;
+ /* line-height: 1.5; */
+}
+
+.icons{
+    margin-left: 10px;
+    
+}
+
+.box{
+    width: 80%;
+    height: 30vh;
+    background-color: #fafafb;
+    margin-left: 150px;
+   
+    display: flex;
+    gap: 30px;
+
+}
+.box> div{
+    width: 33%;
+    height: 100%;
+    background-color: #f1eaea;
+    display: flex;
+    gap: 30px;
+    margin: 0 10px;
+   margin-top: -70px;
+}
